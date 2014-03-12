@@ -1,4 +1,3 @@
-
 var progressTimer;
 
 var playButton;
@@ -21,7 +20,7 @@ function pad2(number) {
 	return (number < 10 ? '0' : '') + number
 }
 
-var myaudioURL = 'http://198.23.165.148:8888/;';
+var myaudioURL = 'rtmp://201.217.57.221:1935/live/myStream/;';
 var myaudio = new Audio(myaudioURL);
 var isPlaying = false;
 var readyStateInterval = null;
